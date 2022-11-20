@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Rishika Dance Academy
+    block scripts
+    block style
+
+  body
+    nav#navbar
+       ul
+          div#logo 
+             img(src="/static/logo.png") 
+             | HDA
+          li #[a(href="/") home ]
+          li #[a(href="/") about] 
+          li #[a(href="/") services]
+          li #[a(href="/") ClassInfo] 
+          li #[a(href="/contact") contact us] 
+    block content
+    footer#footer 
+       | Copyright 2019  RishikaDamnceAcademy.com  |  All Right Reserved 

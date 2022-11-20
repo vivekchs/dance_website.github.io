@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Noto+Sans:wght@100&display=swap');
+h1{
+    text-align:center;
+    margin-top: 13px;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+.myform
+{
+    height: 574px;
+    display: flex;
+    flex-direction: column;
+    padding: 2px 4px;
+    align-items: center;
+}
+.myinput{
+    width: 450px;
+    margin: 14px 2px;
+    border-radius: 6px;
+    /* text-align: center; */
+    border-color: black;
+    height: 31px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.button{
+    width: 83px;
+    border-radius: 10px;
+    height: 31px;
+    margin: 9px 35px;
+    border-color: aqua;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 6px 18px;
+    font-size: 14px;
+    background-color: #000000a1;
+    color:white;
+}
+.button:hover{
+    background-color: black;
+    color:white;
+}

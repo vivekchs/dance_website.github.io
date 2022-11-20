@@ -1,0 +1,58 @@
+doctype html
+html
+  head
+    title 
+     Rishika Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+       ul
+          div#logo 
+             img(src="/static/logo.png") 
+             | HDA
+          li #[a(href="/") home ]
+          li #[a(href="/") about] 
+          li #[a(href="/") services]
+          li #[a(href="/") ClassInfo] 
+          li #[a(href="/") contact us] 
+    section#Introsection 
+          div Welcome to Rishika Dance Academy 
+          div Trust me you can dance 
+    section#missonsection
+          h2 Our Misson    
+          div.card 
+            h3 Dance Perfection
+            div.card-box 
+              div.card-img
+                  img(src="/static/dance1.jpg")
+              div.card-content 
+                  p This is the best dance academy
+          div.card 
+              h3 Dance the way you like
+               div.card-box 
+                 div.card-img
+                   img(src="/static/dance2.png")
+                 div.card-content 
+                   p This is the best dance academy
+          div.card 
+              h3 Expert Teaching
+              div.card-box 
+                div.card-img
+                  img(src="/static/dance3.png")
+                div.card-content 
+                  p This is the best dance academy
+    section#Sponsorsection 
+                 h2 Our Sponsors
+                 div#sponsors
+                    img(src= "/static/img1.png",alt="sponsor Image",class="spImage")
+                    img(src= "/static/img2.png",alt="sponsor Image",class="spImage")
+                    img(src= "/static/img3.png",alt="sponsor Image",class="spImage")
+           
+              
+    footer#footer 
+       | Copyright 2019  RishikaDamnceAcademy.com  |  All Right Reserved
+    
+
+    script
+      include ../static/index.js
